@@ -1,0 +1,24 @@
+{
+  "name": "cart-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rai" : "npx @tailwindcss/cli -i ./src/input.css -o ./simple_cart/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoiRendal/Cart-System.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RoiRendal/Cart-System/issues"
+  },
+  "homepage": "https://github.com/RoiRendal/Cart-System#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.16",
+    "tailwindcss": "^4.1.16"
+  }
+}
