@@ -29,7 +29,6 @@ productArray.forEach( (product) => {
     product.addEventListener('click', () => {
         const productName = document.createElement('h5');
         productName.innerText = product.firstElementChild.innerHTML;
-        productName.classList.add('');
         cart.appendChild(productName);
         console.log(productName);
     });
